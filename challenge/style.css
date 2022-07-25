@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  background-color: #EC715F;
+  height: 70px;
+  display: flex; 
+  justify-content: center;
+}
+
+.heading {
+  width: 1024px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list-item {
+  color: #FAFAFA;
+  font-size: 16px;
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+}
