@@ -67,8 +67,7 @@ main {
 .main-h1 {
   font-size: 32px;
   color: #000000;
-  padding-top: 90px;
-  margin-bottom: 8px;
+  padding: 90px 0px 8px 0px;
 }
 
 .border {
@@ -79,4 +78,46 @@ main {
 
 .main-text {
   padding: 30px 0px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flexbox {
+  width: 300px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+
+.flexbox:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+}
+
+.flexbox:nth-child(2) {
+  background-image: url(img/websuku.png);
+  margin: 0px 10px;
+}
+
+.flexbox:nth-child(3) {
+  background-image: url(img/write.jpg);
+}
+
+.flexbox:nth-child(4){
+  background-image: url(img/webcamp.png);
+  margin: 10px 0px 90px 0px;
+}
+
+.flexbox:nth-child(5){
+  background-image: url(img/talk.jpg);
+  margin: 10px 10px 90px 10px;
+}
+
+.flexbox:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+  margin: 10px 0px 90px 0px;
 }
