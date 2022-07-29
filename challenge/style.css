@@ -19,6 +19,10 @@
   display: flex;
 }
 
+.menu-icon{
+  display:none;
+}
+
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -80,6 +84,7 @@ main {
   margin: 30px 0px;
   font-size: 16px;
   color: #000000;
+  
 }
 
 .flex {
@@ -257,4 +262,148 @@ footer {
   display: flex;
   justify-content: center;
   align-items:center;
+}
+
+
+@media screen and (max-width:768px) {
+  header {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    width: 90%;
+  }
+  .nav-list{
+    display:none;
+ }
+
+/* メニューアイコンを表示させる  */
+ .menu-icon{
+  display:block;
+  margin-left: auto;
+ }
+  
+.main-visual {
+  background-image: url(img/code.png);
+  width: 90%;
+  height: 650px;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.main-visual-h1 {
+  font-size: 40px;
+  color: #FAFAFA;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.main-visual-p {
+  font-size: 18px;
+  color: #FAFAFA;
+  text-align: center;
+  padding-top: 10px; 
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-content {
+  width: 90%; 
+}
+
+.flex {
+  flex-flow:column;
+  align-items: center;
+}
+
+.flexbox{
+  margin: 0 auto 10px;
+}
+
+.flexbox:nth-child(2) {
+  margin: 0 auto 10px;
+}
+
+.flexbox:nth-child(3) {
+  margin-bottom: 90px;
+}
+
+.flexbox:nth-child(n+4) {
+  display:none;
+}
+
+.feature {
+  width: 90% ;
+}
+
+.feature-contents {
+  flex-flow:column;
+  align-items: center;
+}
+
+.feature-content {
+ margin: 10px auto;
+ padding: initial;
+}
+
+.profile {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.profile-content {
+  width: 90%;
+}
+
+.profiles {
+  flex-flow:column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.profile-item {
+  margin: 0 auto;
+  margin-bottom: 20px;  
+}
+
+.profile-text1 {
+  text-align: center;
+}
+
+.profile-text2 {
+  text-align: center;
+}
+.profile-text2:nth-child(4) {
+  margin-bottom: initial;
+}
+
+.contact {
+  width: 90%;
+}
+
+.contacts {
+  flex-flow:column;
+  align-items: center;
+  padding-bottom: 90px;
+  margin: 0 auto;
+}
+
+.contact1 {
+  text-align: center;
+}
+
+.contact-text1 {
+  margin-bottom: 5px;
+}
+
+.sns-text1 {
+  text-align: center;
+}
+
 }
